@@ -156,7 +156,7 @@ document.getElementById('book-list').addEventListener('click', function (e) {
     ui.deleteBook(e.target);
 
     //* Delete book from Local Storage
-    Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
+//     Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
 
     //* Show message
     ui.showAlert('Book Removed!', 'success');
